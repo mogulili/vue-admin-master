@@ -1,7 +1,7 @@
 <template>
   <el-container style="height: 500px; border: 1px solid #eee">
     <el-header style="height:80px;background:#2c3e50">元数据</el-header>
-    <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
+    <el-aside>
       <el-menu :default-openeds="['1', '3']">
         <el-submenu index="1">
           <template slot="title"><i class="el-icon-message"></i>建模中心</template>
