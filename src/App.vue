@@ -11,6 +11,7 @@ export default {
 </script>
 
 <style lang="less">
+  html,body,#app{height:100%;}
 #container {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -34,4 +35,10 @@ a{text-decoration:none;}
      color:#fff;display:block;
   }
   .main{position:absolute;left:210px;border:1px solid #ccc;top:0px;width:50%;height:400px;}
+  .box{
+    background:#fff;
+    padding:0px 10px 10px 10px;
+  }
+  .box h2.title{height:34px;line-height:34px;border-bottom:1px solid #ccc;padding-left:10px;margin-bottom:10px;}
+  .el-main{padding:10px;}
 </style>
